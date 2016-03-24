@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-import easyclient # when easyclient is in same folder, otherwise easynet.easyclient
-import easyserver # same as above
+import easyclient as easyclient # when easyclient is in same folder, otherwise import easynet.easyclient as easyclient
+import easyserver as easyserver # same as above
 import time
 
 myserver = easyserver.Server("localhost", 1337)
@@ -21,5 +21,4 @@ myserver.showpings()
 time.sleep(0.1)
 print("The client has a new message:", myclient.datalist[0])
 print("The server has a new message:", myserver.datalist[0].text, "from", myserver.datalist[0].sender)
-time.sleep(10)
 
