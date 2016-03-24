@@ -6,8 +6,8 @@ setup(
   description = 'A collection of scripts that try to help beginners with an easy network interface',
   author = 'Idrias',
   author_email = 'nomail1@gmx.net',
-  url = 'https://github.com/peterldowns/mypackage',
-  download_url = 'https://github.com/peterldowns/mypackage/tarball/0.1',
+  url = 'https://github.com/Idrias/easynet/',
+  download_url = 'https://github.com/Idrias/easynet/tarball/0.9',
   keywords = ['network', 'connect', 'server'],
   classifiers = [],
 )
