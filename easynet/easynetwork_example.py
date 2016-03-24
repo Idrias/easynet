@@ -21,5 +21,5 @@ myserver.showpings()
 time.sleep(0.1)
 print("The client has a new message:", myclient.datalist[0])
 print("The server has a new message:", myserver.datalist[0].text)
-
+time.sleep(10)
 
