@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-import easyclient as easyclient # when easyclient is in same folder, otherwise import easynet.easyclient as easyclient
-import easyserver as easyserver # same as above
+import easynet.easyclient as easyclient 
+import easynet.easyserver as easyserver
 import time
 
 myserver = easyserver.Server("localhost", 1337)
