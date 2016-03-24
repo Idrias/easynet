@@ -20,6 +20,6 @@ myserver.showpings()
 
 time.sleep(0.1)
 print("The client has a new message:", myclient.datalist[0])
-print("The server has a new message:", myserver.datalist[0].text)
+print("The server has a new message:", myserver.datalist[0].text, "from", myserver.datalist[0].sender)
 time.sleep(10)
 
